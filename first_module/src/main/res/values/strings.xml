@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">first_module</string>
+    <string name="text_go_to_second_activity">Go to second activity</string>
+    <string name="text_send_message">Send message</string>
+    <string name="text_enter_email">Enter e-mail</string>
+    <string name="text_subject">Subject</string>
+</resources>

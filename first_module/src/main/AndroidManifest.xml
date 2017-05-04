@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.epam.androidlab.first_module">
+
+    <permission
+        android:name="com.epam.androidlab.mypermission"
+        android:label="my_permission"
+        android:protectionLevel="dangerous"></permission>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity android:name=".FirstActivity">
+            android:permission="com.epam.androidlab.mypermission"
+            <intent-filter>
+                <action android:name="com.epam.androidlab.mypermission.MyAction" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
